@@ -2,9 +2,12 @@
 
 namespace System.Linq
 {
+    /// <summary>
+    /// Sliding Windows over items. Optimized for T[] and IList<T>
+    /// </summary>
     public static class SliceWindowExtensions
     {
-        public static IEnumerable<T[]> Window5<T>(this T[] items, int windowSize)
+        public static IEnumerable<T[]> Window<T>(this T[] items, int windowSize)
         {
             if(windowSize<=0)
             {
