@@ -11,11 +11,7 @@ foreach(var w in items.Window(2))
 }
 void WriteLine<T>(T[] items)
 {
-    foreach (var e in items)
-    {
-        Console.Write($"{e} ");
-    }
-    Console.WriteLine();
+    Console.WriteLine(String.Join(",",items));
 }
 ```
 
