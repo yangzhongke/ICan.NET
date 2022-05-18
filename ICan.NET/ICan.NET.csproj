@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Zack Yang</Authors>
+    <Company>Zack Yang</Company>
+    <PackageProjectUrl>https://github.com/yangzhongke/ICan.NET</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/yangzhongke/ICan.NET</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
