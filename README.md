@@ -17,10 +17,11 @@ void WriteLine<T>(T[] items)
 
 Output:
 
+```
 3 1
 1 4
 4 1
 1 5
 5 9
-
+```
 
