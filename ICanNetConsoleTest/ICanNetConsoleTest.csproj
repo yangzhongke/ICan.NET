@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ICan.AutoGUI\ICan.AutoGUI.csproj" />
     <ProjectReference Include="..\ICan.NET\ICan.NET.csproj" />
   </ItemGroup>
 
